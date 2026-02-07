@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ae_sYFG]yLUK40M*I2Cc">mySprite</variable></variables><block type="pxt-on-start" id="zu=y$DB!{uX40]@%U/_a" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="m_}XtXf5$kM-|HEbNd$U"><value name="color"><shadow type="colorindexpicker" id="Ww#l0Su.IZ|o8vP`PMhn"><field name="index">3</field></shadow></value><next><block type="music_playable_play" id="3LcXPG({(%k`IEEttPI."><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="5J{![ru)B%6|]HIwbSwT"><value name="melody"><shadow type="melody_editor" id="kzJ1bQa;aEU^LE[UthT4"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Q}nAoZLVKu2_EqHJYy6A"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">192</field></shadow></value></shadow></value><next><block type="run_image_animation" id="-6xI[G2RZ%:mi{%~/=#G"><value name="sprite"><block type="variables_get" id="xRXl#-Sd%3|Wg[b-q$Sn"><field name="VAR" id="ae_sYFG]yLUK40M*I2Cc">mySprite</field></block></value><value name="frames"><shadow type="animation_editor" id="DG4+t.^aShq=?0q;wQ{7"><field name="frames">[img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="{N2M/z.l@6O|Ac_EfO)o"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id=";AWIH|n4HooRo:~Ne?Yr"><field name="on">false</field></shadow></value></block></next></block></next></block></statement></block></xml>
